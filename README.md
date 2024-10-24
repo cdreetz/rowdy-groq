@@ -37,9 +37,18 @@ To get started with the examples in this repository, you'll need to have the fol
 5. Create a `.env` file in the root directory of the repository and add your Groq API key:
     ```
     GROQ_API_KEY=your_api_key_here
+    GROQ_API_KEY=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
     ```
 
 ## Overview of Example Files
+
+### chat.py
+
+The `chat.py` script demonstrates how to use the Groq API to build a chatbot.
+
+### audio.py
+
+The `audio.py` script demonstrates how to use the Groq API to transcribe an audio file.
 
 ### team.py
 
