@@ -18,12 +18,23 @@ To get started with the examples in this repository, you'll need to have the fol
     cd groq-workshop
     ```
 
-2. Install the required Python packages:
+2. Create a virtual environment (macos/linux):
+    ```sh
+    python3 -m venv env
+    source env/bin/activate
+    ```
+3. Create a virtual environment (windows):
+    ```sh
+    python -m venv env
+    env/Scripts/activate  
+    ```
+
+4. Install the required Python packages:
     ```sh
     pip install -r requirements.txt
     ```
 
-3. Create a `.env` file in the root directory of the repository and add your Groq API key:
+5. Create a `.env` file in the root directory of the repository and add your Groq API key:
     ```
     GROQ_API_KEY=your_api_key_here
     ```
