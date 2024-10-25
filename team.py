@@ -40,8 +40,18 @@ You will be passed the output of the previous members output,
 and you will perform your duty.
 """
 
-story = team_chat("Write a story about a team of 4 who are attending a hackathon together.")
-summary = team_chat("Summarize this story", story)
-extended_story = team_chat("Expand on the original story, adding more details and character development", story)
-story_outcome = team_chat("Write about how the story ends, including the results of the hackathon", extended_story)
+#story = team_chat("Write a story about a team of 4 who are attending a hackathon together.")
+#summary = team_chat("Summarize this story", story)
+#extended_story = team_chat("Expand on the original story, adding more details and character development", story)
+#story_outcome = team_chat("Write about how the story ends, including the results of the hackathon", extended_story)
+
+story = team_chat("You are part of a team at a hackathon, your job is to come up with an idea for a project")
+summary = team_chat("You are part of a team at a hackathon, your job is to come up with a plan, given the project idea", story)
+
+while project is not done:
+    extended_story = team_chat("You are part of a team at a hackthon, your job is to come up with the code for the project", summary)
+
+
+
+
 

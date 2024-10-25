@@ -13,32 +13,34 @@ To get started with the examples in this repository, you'll need to have the fol
 ### Installation
 
 1. Clone this repository to your local machine:
-    ```sh
-    git clone https://github.com/yourusername/groq-workshop.git
-    cd groq-workshop
-    ```
+
+   ```sh
+   git clone https://github.com/yourusername/groq-workshop.git
+   cd groq-workshop
+   ```
 
 2. Create a virtual environment (macos/linux):
-    ```sh
-    python3 -m venv env
-    source env/bin/activate
-    ```
+   ```sh
+   python3 -m venv env
+   source env/bin/activate
+   ```
 3. Create a virtual environment (windows):
-    ```sh
-    python -m venv env
-    env/Scripts/activate  
-    ```
+
+   ```sh
+   python -m venv env
+   env/Scripts/activate
+   ```
 
 4. Install the required Python packages:
-    ```sh
-    pip install -r requirements.txt
-    ```
+
+   ```sh
+   pip install -r requirements.txt
+   ```
 
 5. Create a `.env` file in the root directory of the repository and add your Groq API key:
-    ```
-    GROQ_API_KEY=your_api_key_here
-    GROQ_API_KEY=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
-    ```
+   ```
+   GROQ_API_KEY=your_api_key_here
+   ```
 
 ## Overview of Example Files
 
@@ -55,6 +57,7 @@ The `audio.py` script demonstrates how to use the Groq API to transcribe an audi
 The `team.py` script demonstrates how to use the Groq API to build a collaborative AI team. Each team member performs a specific duty, and the output of one member is passed to the next.
 
 Key functions:
+
 - `instruction_builder(duty, previous=None)`: Constructs the instruction prompt for each team member.
 - `chat(prompt)`: Sends a chat request to the Groq API and returns the response.
 - `team_chat(duty, previous=None)`: Manages the workflow of the AI team, passing outputs between members.
