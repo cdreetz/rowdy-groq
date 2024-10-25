@@ -16,7 +16,7 @@ To get started with the examples in this repository, you'll need to have the fol
 
    ```sh
    git clone https://github.com/cdreetz/rowdy-groq.git
-   cd groq-workshop
+   cd rowdy-groq
    ```
 
 2. Create a virtual environment (macos/linux):
