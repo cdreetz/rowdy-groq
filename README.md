@@ -15,7 +15,7 @@ To get started with the examples in this repository, you'll need to have the fol
 1. Clone this repository to your local machine:
 
    ```sh
-   git clone https://github.com/yourusername/groq-workshop.git
+   git clone https://github.com/cdreetz/rowdy-groq.git
    cd groq-workshop
    ```
 
